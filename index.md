@@ -142,7 +142,7 @@ Vision Fox uses third-party services only to provide and secure app functionalit
 - **Google Firebase App Check and Remote Config:** Protect and configure Firebase-connected services.
 - **Apple:** Provides camera permission controls, the photo picker, on-device Vision OCR, SwiftData storage, the share sheet, App Attest, and DeviceCheck.
 
-Any third party that processes user data for Vision Fox is expected to provide the **same or equal protection of user data** as stated in this policy and as required by Apple’s App Review Guidelines.
+Any third party that processes user data for Vision Fox provides the **same or equal protection of user data** as stated in this policy and as required by Apple’s App Review Guidelines.
 
 ---
 
