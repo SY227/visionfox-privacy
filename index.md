@@ -1,6 +1,6 @@
 # Vision Fox Privacy Policy
 
-**Last updated:** August 4, 2026
+**Last updated:** August 7, 2026
 
 Vision Fox (“Vision Fox,” “we,” “us”) is a visual assistant that lets you capture or select an image, ask a question, receive an AI-generated analysis, and optionally save or share the result. This policy explains what data Vision Fox processes, how it is used, and the choices you have.
 
@@ -43,7 +43,21 @@ The submitted image may contain personal, sensitive, confidential, or identifyin
 
 **Purpose:** To generate observations, interpretations, uncertainty, next actions, extracted text, and suggested follow-up questions.
 
-### 4) Requests and questions
+### 4) Face Data
+
+Vision Fox does not perform facial recognition, biometric identification, face matching, Face ID authentication, or create face templates, face embeddings, face meshes, facial landmark data, or user profiles based on a person’s face.
+
+A photo or screenshot deliberately captured or selected by the user may contain a human face. When the user reviews that image and taps **Analyze**, the complete selected image, including any visible face contained in the image, may be sent to Google Gemini through Firebase AI Logic solely to perform the visual analysis requested by the user.
+
+Vision Fox does not separately extract or store biometric face data. Face information is not used for authentication, advertising, marketing, tracking, profiling, or identifying anonymous users.
+
+If the user taps **Save**, Vision Fox may store a compressed thumbnail of the selected image locally on the user’s device. If the original image contains a face, the thumbnail may also contain that face. Saved thumbnails remain only on the user’s device until the saved scan is deleted, multiple scans are deleted through History, or the app is deleted.
+
+Images submitted to Google Gemini, including images that may contain faces, are processed by Google solely to provide the requested AI functionality and according to Google’s applicable data-retention and abuse-monitoring policies. Google currently states that Gemini API prompts, contextual information, and outputs may be retained for up to 55 days for abuse monitoring.
+
+Vision Fox does not sell face data or share it with advertising platforms, analytics providers, data brokers, or information resellers.
+
+### 5) Requests and questions
 
 Vision Fox processes:
 
@@ -54,7 +68,7 @@ Vision Fox processes:
 
 **Purpose:** To understand what you want Vision Fox to do and tailor the response.
 
-### 5) On-device OCR text
+### 6) On-device OCR text
 
 For Extract mode and some text-focused Custom requests, Vision Fox may use Apple Vision to recognize visible text locally on your device.
 
@@ -64,7 +78,7 @@ Relevant OCR text may be included with the image and request sent to Gemini. Ver
 
 **Purpose:** To improve text extraction and help Gemini interpret readable content more accurately.
 
-### 6) AI-generated analysis and follow-up conversation
+### 7) AI-generated analysis and follow-up conversation
 
 Gemini may return:
 
@@ -81,7 +95,7 @@ For a follow-up request, Vision Fox may send the selected image, the earlier ana
 
 **Purpose:** To continue answering questions about the same image.
 
-### 7) Optional saved history
+### 8) Optional saved history
 
 Vision Fox saves a history record only when you tap **Save**.
 
@@ -99,7 +113,7 @@ Saved records are stored locally on your device using Apple SwiftData.
 
 The live follow-up conversation is not preserved in saved history.
 
-### 8) Sharing
+### 9) Sharing
 
 If you tap **Share**, Vision Fox opens the iOS share sheet with the generated report text.
 
@@ -107,7 +121,7 @@ If you tap **Share**, Vision Fox opens the iOS share sheet with the generated re
 
 Any destination app or service you choose has its own privacy practices.
 
-### 9) App security and configuration data
+### 10) App security and configuration data
 
 Vision Fox uses:
 
